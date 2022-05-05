@@ -17,7 +17,7 @@ class CreateTasksTable extends Migration
             $table->id();
             $table->foreignId('user_id')->references('id')->on('users');
             $table->text('description');
-            $table->boolean('it\'s_done');
+            $table->boolean('its_done');
             $table->timestamps();
         });
     }

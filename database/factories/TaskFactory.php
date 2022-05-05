@@ -25,7 +25,7 @@ class TaskFactory extends Factory
         return [
             'user_id' => 3,
             'description' => $this->faker->realText(),
-            'it\'s_done' => false,
+            'its_done' => false,
         ];
     }
 }
